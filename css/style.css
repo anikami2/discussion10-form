@@ -17,6 +17,7 @@ form {
 
 label {
   display: block;
+  grid-template-columns: 1fr 1fr;
   margin-bottom: 10px;
 }
 
@@ -33,4 +34,9 @@ input[type="submit"] {
   color: #00274C; 
   padding: 10px;
   width: 100%;
+}
+
+.radio-group { 
+  border: solid white 2px;
+  margin-bottom: 10px;
 }
